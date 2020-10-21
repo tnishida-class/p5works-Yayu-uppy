@@ -17,3 +17,11 @@ function draw() {
 
 // triangle(12,120,116,120,116,10);
 // triangle(0,108,106,108,106,0);
+
+function setup() {
+  createCanvas(100,100);
+  let s;  // s という名前の変数を宣言する
+  s = 20; // s に 20 を代入する
+  rect(10, 10, s, s);
+  rect(90 - s, 90 - s, s, s);
+}
