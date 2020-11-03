@@ -18,23 +18,19 @@
 // }
 
 
-
+// 練習問題：吹き出し
 function setup(){
   createCanvas(400, 400);
   background(255);
-  noStroke();
-  balloon("I love keyakizaka46", 50, 50, 150);
+  balloon("I love keyakizaka46", 50, 150, "#003462" );
 }
 
-function balloon(t, cx, cy, b){
+function balloon(t, a, b, c){
   let w = textWidth(t);
   let h = textAscent() + textDescent();
   let p = 50;
-  let x = cx;
-  let y = cy;
-  fill(b);
-  rect(0 + x, 0 + y, w + p * 2 + 2 * x, h + p * 2 + 2 * y, 30);
+  fill(c);
+  rect(0 + a, 0 + b, w + p * 2, h + p * 2);
   fill(255);
-  text(t, p + x, h + p + y);
-
+  text(t, p + a, h + p + b);
 }
