@@ -28,6 +28,8 @@ function draw(){
   }
 }
 
+// 図形を書く処理はdrawの中に書く。他の関数に書いても、drawのbackgroundですぐに上書きされてしまう。
+
 function keyPressed(){
   if(key == " "){ reset(); } // スペースキーを押したらリセット
 }
@@ -45,7 +47,7 @@ function mouseDragged(){
 
 function mouseReleased(){
   if(grabbed){
-    grabbed = false;
+    grabbed = false;  // 離す
     vx = mouseX - pmouseX;
     vy = mouseY - pmouseY;
   }
