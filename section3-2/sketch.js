@@ -4,8 +4,8 @@
 //   createCanvas(300, 100);
 //   background(200);
 //   fill(0);
-//   crossmark(10, 10, 90, 90);
-//   ngmark(150, 50, 80);
+//   // crossmark(10, 10, 90, 90);
+//   // ngmark(150, 50, 80);
 //   star(250, 50, 40);
 // }
 //

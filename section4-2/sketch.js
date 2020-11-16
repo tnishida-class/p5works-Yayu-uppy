@@ -23,7 +23,7 @@ function draw(){
   vy = constrain(vy + g, -vyMax, vyMax);
   // // vyMaxは縦方向の最大速度を定義し、よりリアルな動きにするためのもの
   // // 具体的には、
-  // vx = vy + g;
+  // vy = vy + g;
   // if (vy > vyMax) {vy = vyMax}
   // if (vy < vyMax) {vy = -vyMax}
   // // のこと。
