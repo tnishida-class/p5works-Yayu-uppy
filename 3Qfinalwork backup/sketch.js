@@ -1,4 +1,3 @@
-// テキスト「アニメーション」
 let x, y, vx, vy;
 let grabbed;
 let angle = 0.0;
