@@ -21,6 +21,8 @@ function setup(){
 
 function draw(){
   background('#202020');
+  fill(200);
+  text('スペースキー長押しでブラックホール　上矢印で月加速　下矢印で月停止', 20, 20);
   image(imgA, x, y, 40, 40);
   fill(0);
   ellipse(width / 2 + 20, height / 2 + 20, 10, 10);
